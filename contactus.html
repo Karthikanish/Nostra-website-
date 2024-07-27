@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact us</title>
+    <link rel="stylesheet" href="contactus.css">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+
+    <!--Link Font Awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+</head>
+
+<body>
+
+
+    <!--Navigation Bar-->
+    <nav class="navbar">
+        <h1>Nostra</h1>
+        <div class="navbar-links">
+            <p class="navbar-link"><a href="index.html">Home</a></p>
+            <p class="navbar-link"><a href="index.html #new-arrival">New Arrival</a></p>
+            <p class="navbar-link"><a href="index.html #most-wanted">Most Wanted</a></p>
+            <p class="navbar-link"><a href="collections.html">Collection</a></p>
+            <p class="navbar-link"><a href="contactus.html">Contact Us</a></p>
+        </div>
+
+
+        <div class="navbarmenutoggle" style="cursor: pointer;">
+            <i id="sidenavbaractivate" class="fa-solid fa-bars"></i>
+        </div>
+    </nav>
+
+    <!--Side Navbar-->
+    <section id="sidenavbar" class="  z-10 top-0 transition-all duration-1000"
+        style="width: 40%;height: 100vh;left: -50%;">
+
+
+        <p id="closenav" style="text-align: right; cursor: pointer;">
+            <i id="sidenavbarclose " class="fa-solid fa-xmark "></i>
+        </p>
+
+
+        <div class="side-navbar-links">
+            <p class="side-navbar-link"><a href="index.html">Home</a></p><br>
+            <p class="side-navbar-link"><a href="#new-arrival">New Arrival</a></p><br>
+            <p class="side-navbar-link"><a href="#most-wanted">Most Wanted</a></p><br>
+            <p class="side-navbar-link"><a href="collections.html">Collections</a></p><br>
+            <p class="side-navbar-link"><a href="contactus.html">Contact Us</a></p><br>
+        </div>
+
+
+    </section>
+    <div class="container">
+
+
+        <div class="p-4 mx-auto max-w-xl bg-white font-[sans-serif] ">
+            <h1 class="text-3xl text-gray-800 font-extrabold text-center">Contact us</h1>
+            <form class="mt-8 space-y-4">
+                <input type='text' placeholder='Name'
+                    class="w-full rounded-md py-3 px-4 text-gray-800 bg-gray-100 focus:bg-transparent text-sm outline-blue-500" />
+                <input type='email' placeholder='Email'
+                    class="w-full rounded-md py-3 px-4 text-gray-800 bg-gray-100 focus:bg-transparent text-sm outline-blue-500" />
+                <input type='text' placeholder='Subject'
+                    class="w-full rounded-md py-3 px-4 text-gray-800 bg-gray-100 focus:bg-transparent text-sm outline-blue-500" />
+                <textarea placeholder='Message' rows="6"
+                    class="w-full rounded-md px-4 text-gray-800 bg-gray-100 focus:bg-transparent text-sm pt-3 outline-blue-500"></textarea>
+                <button type='button'
+                    class="text-white bg-blue-500 hover:bg-blue-600 tracking-wide rounded-md text-sm px-4 py-3 w-full">Send</button>
+            </form>
+        </div>
+
+        <!--Side navbar-->
+
+        <section id="sidenav" class="bg-green-100 fixed z-20 top-0 transition-all duration-1000"
+            style="width: 50%; height: 100vh; right: -50%;">
+
+            <div class="text-right p-5">
+                <p id="closenav" class="inline cursor-pointer">X</p>
+            </div>
+
+            <ul class="flex flex-col gap-10 items-center text-gray-600">
+                <li>
+                    <a href="./index.html" class="hover:underline hover:text-black" href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="./product.html" class="hover:underline hover:text-black" href="product.html">Product</a>
+                </li>
+                <li>
+                    <a href="./contact.html" class="hover:underline hover:text-black" href="contact.html">Contact</a>
+                </li>
+            </ul>
+
+        </section>
+
+
+        <div class="news">
+            <h2>Join our News Letter</h2>
+            <p style="text-align: center;">Signup for our email newspaper to get exclusive discounts, updates, and more
+            </p>
+            <div style="margin-top: 10px;">
+                <input class="search" placeholder="search style....." style="font-size: x-large;">
+            </div>
+            <div>
+                <button> Subscribe <i class="fa-solid fa-arrow-right"></i> </button>
+            </div>
+        </div>
+        <!--Footer-->
+
+        <div class="footer">
+            <div class="footer-container">
+                <div class="footer-box-1">
+                    <h2 class="headingText">Nostra</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, esse atque temporibus
+                        fugiat ipsa obcaecati tempore illum modi exercitationem incidunt?</p>
+                    <div class="footer-icon-container">
+                        <i class="icon fa-brands fa-instagram" style="color: #ffffff;"></i>
+                        <i class="icon fa-brands fa-twitter" style="color: #ffffff;"></i>
+                        <i class="icon fa-brands fa-facebook" style="color: #ffffff;"></i>
+                    </div>
+                </div>
+
+            </div>
+
+            <p class="subtitle">@ 2024 Nostra.com</p>
+        </div>
+
+        
+    <!--Link Javascript File-->
+    <script src="contactus.js"></script>
+
+</body>
